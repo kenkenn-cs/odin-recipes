@@ -1,27 +1,47 @@
-# Odin Recipes — PE5 HTML Project
 
-This beginner project is organized around the reference Odin Recipes website and the PE5 requirements.
+# Odin Recipes
 
-## Pages
-- `index.html` — homepage with links to three recipes
-- `recipes/filipino-spaghetti.html`
-- `recipes/leche-flan.html`
-- `recipes/mango-float.html`
+## About the Project
 
-## Before submitting
-1. Add your own appropriate food photos to the `images` folder using these exact filenames:
-   - `filipino-spaghetti.jpg`
-   - `leche-flan.jpg`
-   - `mango-float.jpg`
-2. Add your own short recipe demonstration videos to the `media` folder using these exact filenames:
-   - `filipino-spaghetti.mp4`
-   - `leche-flan.mp4`
-   - `mango-float.mp4`
-3. If you do not have three videos, you can use one relevant video on one recipe page and remove the other video sections, or use an appropriate permitted embedded video. Do not leave broken media in the submitted site.
-4. Open `index.html` in your browser and test every link, image, video, and form.
-5. The feedback forms are HTML demonstrations only. They do not store or send submissions because a backend service has not been connected.
+Odin Recipes is a simple recipe website created for my HTML practical exercise. It features three Filipino delicacies, along with their ingredients, preparation details, and cooking instructions.
 
-## HTML features demonstrated
-Semantic page structure (`header`, `main`, `section`, `footer`), headings, paragraphs, relative links, images with alternative text, ordered and unordered lists, a data table with caption and row headers, native video controls, and labeled form controls.
+## Recipes Included
 
-Recipe quantities and preparation times are estimates. Review and adjust them before presenting the recipes as your own.
+1. **Puto Bumbong** – A traditional Filipino purple rice cake commonly served during the Christmas season.
+2. **Bibingka** – A Filipino rice cake traditionally cooked in clay pots and lined with banana leaves.
+3. **Suman** – A Filipino delicacy made from glutinous rice cooked in coconut milk and wrapped in banana leaves.
+
+## Built With
+
+- HTML5
+
+## Website Features
+
+- A homepage with links to individual recipe pages.
+- Recipe descriptions and images.
+- Ingredients and step-by-step cooking instructions.
+- Recipe information tables.
+- Embedded video tutorials.
+- Feedback forms for each recipe.
+
+## What I Learned
+
+While working on this project, I practiced using HTML to structure webpages. I also learned how to create links between pages and incorporate different HTML elements such as images, tables, lists, forms, and videos.
+
+## Project Structure
+
+    odin-recipes/
+    │
+    ├── index.html
+    ├── recipes/
+    │   ├── puto-bumbong.html
+    │   ├── bibingka.html
+    │   └── suman.html
+    │
+    ├── images/
+    ├── media/
+    └── README.md
+
+## Author
+
+Created as part of my HTML coursework.
