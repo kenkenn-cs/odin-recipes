@@ -1,146 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A small collection of Filipino recipes, with ingredients and step-by-step cooking instructions.">
-  <title>Odin Recipes | Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes | Filipino Favorites</title>
 </head>
 <body>
-  <header>
-    <h1>Odin Recipes</h1>
-    <p>Simple Filipino favorites, explained one step at a time.</p>
-    <nav aria-label="Main navigation">
-      <ul>
-        <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="recipes/adobo.html">Chicken Adobo</a></li>
-        <li><a href="recipes/sinigang.html">Sinigang</a></li>
-        <li><a href="recipes/pancit.html">Pancit Canton</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <h1>Odin Recipes</h1>
+        <p>Welcome to my Filipino Recipes Website!</p>
+        <p>Explore a few well-loved Filipino dishes and desserts that you can prepare at home.</p>
+    </header>
 
-  <main>
-    <section aria-labelledby="welcome-heading">
-      <h2 id="welcome-heading">Welcome to the kitchen</h2>
-      <p>This website is a beginner-friendly collection of three Filipino dishes. Choose a recipe to see its ingredients, cooking steps, and useful notes.</p>
-    </section>
+    <main>
+        <section aria-labelledby="available-recipes">
+            <h2 id="available-recipes">Available Recipes</h2>
+            <ul>
+                <li><a href="recipes/filipino-spaghetti.html">Filipino Spaghetti</a></li>
+                <li><a href="recipes/leche-flan.html">Leche Flan</a></li>
+                <li><a href="recipes/mango-float.html">Mango Float</a></li>
+            </ul>
+        </section>
 
-    <section aria-labelledby="recipes-heading">
-      <h2 id="recipes-heading">Our recipes</h2>
-      <article>
-        <h3><a href="recipes/adobo.html">Chicken Adobo</a></h3>
-        <p>Chicken simmered in soy sauce, vinegar, garlic, pepper, and bay leaves.</p>
-        <p><a href="recipes/adobo.html">Read the Chicken Adobo recipe</a></p>
-      </article>
-      <article>
-        <h3><a href="recipes/sinigang.html">Pork Sinigang</a></h3>
-        <p>A comforting sour soup with pork and vegetables.</p>
-        <p><a href="recipes/sinigang.html">Read the Pork Sinigang recipe</a></p>
-      </article>
-      <article>
-        <h3><a href="recipes/pancit.html">Pancit Canton</a></h3>
-        <p>Stir-fried noodles with vegetables and your choice of protein.</p>
-        <p><a href="recipes/pancit.html">Read the Pancit Canton recipe</a></p>
-      </article>
-    </section>
+        <section aria-labelledby="about-site">
+            <h2 id="about-site">About This Website</h2>
+            <p>This website serves as my output for ITE 10 performance task 5.</p>
+        </section>
+    </main>
 
-    <section aria-labelledby="comparison-heading">
-      <h2 id="comparison-heading">Recipe comparison</h2>
-      <p>Cooking times are estimates and can vary with equipment and ingredient sizes.</p>
-      <table>
-        <caption>Quick overview of the recipes</caption>
-        <thead>
-          <tr>
-            <th scope="col">Recipe</th>
-            <th scope="col">Estimated preparation</th>
-            <th scope="col">Estimated cooking</th>
-            <th scope="col">Main method</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Chicken Adobo</th>
-            <td>15 minutes</td>
-            <td>40–50 minutes</td>
-            <td>Simmering</td>
-          </tr>
-          <tr>
-            <th scope="row">Pork Sinigang</th>
-            <td>20 minutes</td>
-            <td>60–75 minutes</td>
-            <td>Boiling / simmering</td>
-          </tr>
-          <tr>
-            <th scope="row">Pancit Canton</th>
-            <td>20 minutes</td>
-            <td>15–20 minutes</td>
-            <td>Stir-frying</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section aria-labelledby="media-heading">
-      <h2 id="media-heading">Cooking video</h2>
-      <p>This is a placeholder for your own cooking demonstration. Add an MP4 file named <code>recipe-demo.mp4</code> to the <code>media</code> folder to use this player.</p>
-      <video controls width="640" preload="metadata">
-        <source src="media/recipe-demo.mp4" type="video/mp4">
-        Your browser does not support the video element. You can still follow the written recipes on this website.
-      </video>
-    </section>
-
-    <section aria-labelledby="feedback-heading">
-      <h2 id="feedback-heading">Send us feedback</h2>
-      <p>Tell us which recipe you tried and how it turned out. This demonstration form does not send or store responses yet.</p>
-      <form action="#" method="get">
-        <fieldset>
-          <legend>Your details</legend>
-          <p>
-            <label for="visitor-name">Name (optional)</label><br>
-            <input type="text" id="visitor-name" name="name" autocomplete="name">
-          </p>
-          <p>
-            <label for="visitor-email">Email (optional)</label><br>
-            <input type="email" id="visitor-email" name="email" autocomplete="email">
-          </p>
-        </fieldset>
-        <fieldset>
-          <legend>Your feedback</legend>
-          <p>
-            <label for="recipe-choice">Which recipe did you try?</label><br>
-            <select id="recipe-choice" name="recipe" required>
-              <option value="">Choose a recipe</option>
-              <option value="adobo">Chicken Adobo</option>
-              <option value="sinigang">Pork Sinigang</option>
-              <option value="pancit">Pancit Canton</option>
-            </select>
-          </p>
-          <p>
-            <label for="rating">How would you rate it?</label><br>
-            <select id="rating" name="rating" required>
-              <option value="">Choose a rating</option>
-              <option value="5">5 - Excellent</option>
-              <option value="4">4 - Very good</option>
-              <option value="3">3 - Good</option>
-              <option value="2">2 - Fair</option>
-              <option value="1">1 - Needs improvement</option>
-            </select>
-          </p>
-          <p>
-            <label for="comments">Comments</label><br>
-            <textarea id="comments" name="comments" rows="5" cols="40" required></textarea>
-          </p>
-        </fieldset>
-        <button type="submit">Submit feedback</button>
-        <button type="reset">Clear form</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p><a href="#welcome-heading">Back to top</a></p>
-    <p>Odin Recipes — a student HTML practice project.</p>
-  </footer>
+    <footer>
+        <p><a href="#top">Back to top</a></p>
+    </footer>
 </body>
 </html>
