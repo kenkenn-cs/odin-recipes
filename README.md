@@ -3,7 +3,7 @@
 
 ## About the Project
 
-Odin Recipes is a simple recipe website created for my HTML practical exercise. It features three Filipino delicacies, along with their ingredients, preparation details, and cooking instructions.
+Odin Recipes is a simple recipe website created for my HTML practical exercise 5. It features three Filipino delicacies, along with their ingredients, preparation details, and cooking instructions.
 
 ## Recipes Included
 
@@ -44,4 +44,4 @@ While working on this project, I practiced using HTML to structure webpages. I a
 
 ## Author
 
-Created as part of my HTML coursework.
+Tejada, Kenneth
