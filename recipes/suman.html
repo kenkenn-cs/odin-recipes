@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suman | Odin Recipes</title>
+</head>
+<body>
+    <header>
+        <p><a href="../index.html">Home</a></p>
+        <h1>Suman</h1>
+        <p>A traditional Filipino rice cake made with glutinous rice and coconut milk, wrapped in banana leaves.</p>
+    </header>
+
+    <main>
+        <figure>
+            <img src="../images/suman.jpg" alt="Filipino suman rice cakes wrapped in banana leaves" width="600">
+            <figcaption>Traditional suman wrapped in banana leaves and served with sugar.</figcaption>
+        </figure>
+
+        <section aria-labelledby="description">
+            <h2 id="description">Description</h2>
+            <p>Suman is a popular Filipino delicacy made from glutinous rice cooked in coconut milk and wrapped in banana leaves. It is steamed until soft and sticky, then commonly served with sugar, ripe mangoes, or a sweet coconut sauce.</p>
+        </section>
+
+        <section aria-labelledby="recipe-details">
+            <h2 id="recipe-details">Recipe Information</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Preparation Time</th>
+                        <th>Cooking Time</th>
+                        <th>Servings</th>
+                        <th>Difficulty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>30 minutes</td>
+                        <td>60-75 minutes</td>
+                        <td>6-8 pieces</td>
+                        <td>Moderate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section aria-labelledby="ingredients">
+            <h2 id="ingredients">Ingredients</h2>
+            <ul>
+                <li>2 cups glutinous rice</li>
+                <li>1½ cups coconut milk</li>
+                <li>½ teaspoon salt</li>
+                <li>2 tablespoons white sugar (optional)</li>
+                <li>Banana leaves, cleaned and cut into rectangles</li>
+                <li>Kitchen string, for tying (optional)</li>
+                <li>White sugar or ripe mangoes, for serving</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="steps">
+            <h2 id="steps">Instructions</h2>
+            <ol>
+                <li>Wash the glutinous rice thoroughly until the water becomes mostly clear. Drain and set aside.</li>
+                <li>In a saucepan, combine the glutinous rice, coconut milk, salt, and sugar.</li>
+                <li>Cook over medium-low heat while stirring occasionally until most of the coconut milk has been absorbed and the rice is partially cooked.</li>
+                <li>Remove the rice mixture from the heat and allow it to cool slightly.</li>
+                <li>Briefly heat the banana leaves over low heat to make them soft and flexible.</li>
+                <li>Place a portion of the rice mixture in the center of each banana leaf.</li>
+                <li>Fold the banana leaves securely around the rice and tie them with kitchen string if necessary.</li>
+                <li>Arrange the wrapped suman in a steamer and steam for about 60–75 minutes or until the rice is fully cooked and tender.</li>
+                <li>Allow the suman to cool slightly before serving with sugar or ripe mangoes.</li>
+            </ol>
+        </section>
+
+        <section aria-labelledby="video">
+            <h2 id="video">Video Tutorial</h2>
+            <p>Here's a quick and easy tutorial on how to make a simple but delicious <strong>suman.</strong></p>
+            <video controls width="600">
+                <source src="../media/suman.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <section aria-labelledby="feedback">
+            <h2 id="feedback">Recipe Feedback</h2>
+            <p>Send us a feedback if our suman recipe fits your taste!</p>
+            <form action="#" method="get">
+                <p>
+                    <label for="suman-name">Name:</label><br>
+                    <input type="text" id="suman-name" name="name" autocomplete="name" required>
+                </p>
+                <p>
+                    <label for="suman-email">Email:</label><br>
+                    <input type="email" id="suman-email" name="email" autocomplete="email" required>
+                </p>
+                <p>
+                    <label for="suman-rating">How would you rate this recipe?</label><br>
+                    <select id="suman-rating" name="rating" required>
+                        <option value="">Choose a rating</option>
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Very good</option>
+                        <option value="3">3 - Good</option>
+                        <option value="2">2 - Fair</option>
+                        <option value="1">1 - Needs improvement</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="suman-comments">Comments:</label><br>
+                    <textarea id="suman-comments" name="comments" rows="4" cols="40"></textarea>
+                </p>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer><p><a href="../index.html">Return to homepage</a></p></footer>
+</body>
+</html>
